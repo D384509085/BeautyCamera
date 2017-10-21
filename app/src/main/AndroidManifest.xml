@@ -15,7 +15,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity
-            android:name=".activity.MainActivity"
+            android:name=".activity.FirstPageActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,7 +27,8 @@
             android:name=".activity.CameraActivity"
             android:screenOrientation="portrait" />
         <activity android:name=".activity.FittingRoom" />
-        <activity android:name=".activity.CertainClothesFittingActivity"></activity>
+        <activity android:name=".activity.CertainClothesFittingActivity" />
+        <activity android:name=".activity.FirstPageActivity"></activity>
     </application>
 
 </manifest>
